@@ -5,6 +5,10 @@
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
 }
+::selection {
+  color: var(--pink);
+  background: var(--black);
+}
 :root {
   --pink: #feecec;
   --black: #404040;
@@ -46,6 +50,7 @@ body {
 }
 #yes,
 #no {
+  user-select: none;
   font-size: 15px;
   padding: 7px 12px;
   border-radius: 5px;
