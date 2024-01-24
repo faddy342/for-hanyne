@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/for-hanyne/static/css/main.760caaca.css",
+    "main.js": "/for-hanyne/static/js/main.1801a5fc.js",
+    "index.html": "/for-hanyne/index.html",
+    "main.760caaca.css.map": "/for-hanyne/static/css/main.760caaca.css.map",
+    "main.1801a5fc.js.map": "/for-hanyne/static/js/main.1801a5fc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.760caaca.css",
+    "static/js/main.1801a5fc.js"
+  ]
+}
