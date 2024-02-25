@@ -28,15 +28,18 @@ function App() {
     animate("#no",{y: posy, x: posx}, {duration: 0.3} )
     }
     
+  const resetPos = () => {
+      animate("#no",{y: 0, x: 0}, {duration: 0.3} )
+      }
+      
   return (
     <div className="App">
       <h1 id="reaction">{state ? "(˶ᵔ ᵕ ᵔ˶)" : "(ㅠ﹏ㅠ)"}</h1>
       <h1 id="question">Hanyne will you be my valentine?</h1>
       <div className="button-container">
-        <button id="yes" onClick={() => { setState(true) }}>{"yes <3"}</button>
+        <button id="yes" onClick={() => { setState(true); resetPos() }}>{"yes <3"}</button>
         <motion.button ref={btnRef} id="no" onClick={() => { changePos() }}>{"no :("}</motion.button>
       </div>
-      
     </div>
   );
 }
